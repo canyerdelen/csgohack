@@ -49,5 +49,5 @@ mem.WriteInt((IntPtr)((int)(clientAddress) + 0x4F23F08), 4);
 private static extern short GetAsyncKeyState(System.Windows.Forms.Keys vKey);
 if (GetAsyncKeyState(System.Windows.Forms.Keys.Space) != 0)
 {
-    //By Kolmetyo.
+    //By canyerdelen.
 }
